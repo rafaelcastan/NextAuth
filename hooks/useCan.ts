@@ -20,7 +20,5 @@ export function useCan( { permissions, roles } : UseCanParams ) {
         roles
     })
 
-    console.log(userHasValidPermissions)
-
     return userHasValidPermissions;
 }
